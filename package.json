@@ -1,0 +1,68 @@
+{
+  "name": "cronbake",
+  "description": "A powerful and flexible cron job manager built with TypeScript",
+  "module": "index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/triyanox/cronbake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/triyanox/cronbake/issues"
+  },
+  "homepage": "https://github.com/triyanox/cronbake",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Mohamed Achaq",
+    "email": "hi@achaq.dev",
+    "url": "https://achaq.dev"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "check": "tsc",
+    "build": "rm -rf dist && tsup lib/index.ts --format cjs,esm --dts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "tsup": "^7.2.0",
+    "typescript": "^4.3.5"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cron",
+    "cron job",
+    "cron job manager",
+    "cronbake",
+    "bake",
+    "schedule",
+    "schedule job",
+    "schedule manager",
+    "schedule task",
+    "task",
+    "task manager",
+    "task scheduler",
+    "task schedule",
+    "task schedule manager",
+    "task schedule job",
+    "task schedule task",
+    "task schedule manager job",
+    "task schedule manager task",
+    "task schedule manager job task"
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}
