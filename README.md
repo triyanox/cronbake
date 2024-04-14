@@ -1,6 +1,6 @@
-# Cronbake
+# Cronbake - A Powerful and Flexible Cron Job Manager powered by Bun
 
-Cronbake is a powerful and flexible cron job manager built with TypeScript. It provides an easy-to-use interface for scheduling and managing cron jobs with a wide range of options and features. Cronbake is designed to be lightweight, efficient, and highly configurable, making it suitable for a variety of use cases.
+Cronbake is a powerful and flexible cron job manager built with TypeScript powered by Bun. It provides an easy-to-use interface for scheduling and managing cron jobs with a wide range of options and features. Cronbake is designed to be lightweight, efficient, and highly configurable, making it suitable for a variety of use cases.
 
 ## Features
 
