@@ -34,7 +34,9 @@
   "scripts": {
     "check": "tsc",
     "build": "rm -rf dist && tsup lib/index.ts --format cjs,esm --dts",
-    "test": "bun test"
+    "test": "bun test",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "bun-types": "latest",
