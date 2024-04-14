@@ -1,5 +1,0 @@
----
-"cronbake": patch
----
-
-Initial release
