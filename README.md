@@ -99,7 +99,7 @@ You can manage cron jobs using the various methods provided by the `Baker` class
 Cronbake also provides a `Cron` class that you can use directly to create and manage individual cron jobs. This can be useful if you need more granular control over cron job instances.
 
 ```typescript
-import Cron from 'cronbake';
+import { Cron } from 'cronbake';
 
 // Create a new Cron instance
 const job = Cron.create({
@@ -134,7 +134,7 @@ const nextExecution = job.nextExecution();
 Cronbake also provides utility functions for parsing cron expressions, getting the next or previous execution times, and validating cron expressions.
 
 ```typescript
-import Cron from 'cronbake';
+import { Cron } from 'cronbake';
 
 // Parse a cron expression
 const cronTime = Cron.parse('0 0 * * 0 *');
@@ -149,12 +149,10 @@ const previousExecution = Cron.getPrevious('0 0 * * 0 *');
 const isValid = Cron.isValid('0 0 * * 0 *'); // true
 ```
 
-For more advanced usage and examples, please refer to the [Documentation](link-to-documentation).
-
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
 
-Cronbake is released under the [MIT License](link-to-license).
+Cronbake is released under the [MIT License](./LICENSE).
