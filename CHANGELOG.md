@@ -1,5 +1,11 @@
 # cronbake
 
+## 0.1.2
+
+### Patch Changes
+
+- 833dfa8: Update the docs
+
 ## 0.1.1
 
 ### Patch Changes
